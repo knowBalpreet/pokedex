@@ -1,0 +1,25 @@
+{
+  "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+  "rules": {
+    "jsx-no-lambda": false,
+    "quotemark": [true, "single", "jsx-double"],
+    "ordered-imports": false,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "trailing-comma": false,
+    "member-access": [true, "no-public"],
+    "arrow-parens": false,
+    "curly": false,
+    "no-unused-expression": false,
+    "semicolon": false,
+    "variable-name": false,
+    "no-shadowed-variable": false,
+    "radix": false,
+    "no-console": false,
+    "no-string-literal": false,
+    "prefer-template": true,
+    "no-consecutive-blank-lines": true,
+    "no-trailing-whitespace": true,
+    "indent": [true, "tabs", 2]
+  }
+}

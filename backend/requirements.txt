@@ -1,0 +1,10 @@
+Click==7.0
+fastapi==0.44.1
+h11==0.8.1
+jsondatabase==0.1.7
+pydantic==1.2
+pymongo==3.9.0
+starlette==0.12.9
+uvicorn==0.10.8
+uvloop==0.14.0
+websockets==8.1
