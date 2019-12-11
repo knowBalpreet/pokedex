@@ -10,12 +10,8 @@ from jsondb.db import Database
 
 db = Database("data.db")
 
-with open('./data.json', 'r') as fp:
-  data = loads(fp.read())
-
-
 product_name="Pokedex"
-db['pokemons'] = data
+
 
 app = FastAPI(
     title="{} APIs".format(product_name.title()),
